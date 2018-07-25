@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Department" max_length="40" name="x_226365_staffit_department" type="collection">
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element choice="3" label="DepartmentContact" max_length="40" name="departmentcontact" reference="x_226365_staffit_people" reference_qual="sys_idSTARTSWITH^EQ" reference_qual_condition="sys_idSTARTSWITH^EQ" type="reference">
+            <choice/>
+        </element>
+        <element label="DepartmentName" max_length="40" name="departmentname" type="string"/>
+        <element label="Parent" max_length="40" name="parent" type="string"/>
+    </element>
+</database>
