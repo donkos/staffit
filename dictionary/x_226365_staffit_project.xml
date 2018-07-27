@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Project" max_length="40" name="x_226365_staffit_project" type="collection">
+        <element display="true" label="Billable" max_length="40" name="billable" type="boolean"/>
         <element label="Billing Code" max_length="40" name="billing_code" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
     </element>
